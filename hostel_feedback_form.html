@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Forms</title>
+		<style>
+		h1 {
+			color: navy;
+			font-family: Times New Roman;
+			font-size: 250%;
+			 text-align: center;
+			}
+		p.solid {border-style: solid;}
+		.center {
+			text-align: center;
+			font-family: verdana;
+			color: 0;
+			}
+			body {
+			background-color: rgba(201, 76, 76, 0.3);
+			}
+			div {
+			
+			width: 600px;
+			border: 5px solid black;
+			padding: 50px;
+			margin: 20px;
+			}
+			
+
+		</style>
+	</head>
+	<body>
+		<div>
+			<h1>HOSTEL FEEDBACK FORM</h1>
+		<form>
+		
+			<fieldset>
+				<legend class="center"><b>Student Information</b></legend>
+				First Name:
+				<input Type="text" name="firstname"><br><br>
+				Last Name:
+				<input Type="text" name="lastname"><br><br>
+				 Institute Name:
+				<input Type="text" name="institutename"><br><br>
+				Room No:
+				<input Type="text" name="roomnumber"><br><br>
+				<label> 
+                First Year 
+                <input type = "radio" name = "year"
+                    id = "firstyear" value = "firstyear"> 
+            </label><br> 
+      
+            <label> 
+                 Second Year 
+                <input type = "radio" name = "year"
+                    id = "secondyear " value = "secondyear "> 
+            </label><br> 
+      
+            <label> 
+                Third Year 
+                <input type = "radio" name = "year"
+                    id = "thirdyear " value = "thirdyear "> 
+            </label><br> 
+			<label> 
+                Fourth Year 
+                <input type = "radio" name = "year"
+                    id = "fourthyear " value = "fourthyear "> 
+            </label> 	
+			</fieldset>
+			<fieldset>
+			<legend class="center"><b>Hostel Facilities</b></legend>
+			<i><u>Room Hygiene</u></i> :<input type="radio" name="roomhygiene" checked>Very Good
+			<input type="radio" name="roomhygiene">Good
+			<input type="radio" name="roomhygiene">Average
+			<input type="radio" name="roomhygiene">Poor<br><br>
+			<i><u>Internet Facilities</u></i> :<input type="radio" name="internet facility" checked>Very Good
+			<input type="radio" name="internet facility">Good
+			<input type="radio" name="internet facility">Average
+			<input type="radio" name="internet facility">Poor<br><br>
+			<i><u>Hostel Security</u></i> :<input type="radio" name="hostelsecurity" checked>Very Good
+			<input type="radio" name="hostelsecurity">Good
+			<input type="radio" name="hostelsecurity">Average
+			<input type="radio" name="hostelsecurity">Poor<br><br>
+			<i><u>Lighting</u></i> :<input type="radio" name="lighting" checked>Very Good
+			<input type="radio" name="lighting">Good
+			<input type="radio" name="lighting">Average
+			<input type="radio" name="lighting">Poor<br><br>
+			<i><u>Hostel Surrounding Hygiene</u></i> :<input type="radio" name="hostelsurroundinghygiene" checked>Very Good
+			<input type="radio" name="hostelsurroundinghygiene">Good
+			<input type="radio" name="hostelsurroundinghygiene">Average
+			<input type="radio" name="hostelsurroundinghygiene">Poor<br><br>
+			</fieldset>
+			<fieldset>
+			<legend class="center"><b>Mess Facilities</b></legend>
+			<i><u>Quality of Food</u></i> :<input type="radio" name="qualityoffood" checked>Very Good
+			<input type="radio" name="qualityoffood">Good
+			<input type="radio" name="qualityoffood">Average
+			<input type="radio" name="qualityoffood">Poor<br><br>
+			<i><u>Drinking Water Quality</u></i> :<input type="radio" name="drinkingwaterquality" checked>Very Good
+			<input type="radio" name="drinkingwaterquality">Good
+			<input type="radio" name="drinkingwaterquality">Average
+			<input type="radio" name="drinkingwaterquality">Poor<br><br>
+			<i><u>Kitchen and Hall Hygiene</u></i> :<input type="radio" name="kitchenandhallhygiene" checked>Very Good
+			<input type="radio" name="kitchenandhallhygiene">Good
+			<input type="radio" name="kitchenandhallhygiene">Average
+			<input type="radio" name="kitchenandhallhygiene">Poor<br><br>
+			<i><u>Service by Staff</u></i> :<input type="radio" name="servicebystaff" checked>Very Good
+			<input type="radio" name="servicebystaff">Good
+			<input type="radio" name="servicebystaff">Average
+			<input type="radio" name="servicebystaff">Poor<br><br>
+			</fieldset>
+			<b><label for="w3review"style="color:black;">Review of Hostel:</label></b>
+			<textarea id="reviewofhostel" name="reviewofhostel" rows="4" cols="50"></textarea><br>
+			<input type="submit" value="Submit"><input type="reset"><br>
+			
+		</form>
+		</div>
+	</body>
+</html>
